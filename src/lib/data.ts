@@ -4,7 +4,7 @@ import { BarChart, FileText, Database, PieChart, LineChart, Code } from "lucide-
 export type Skill = {
   name: string;
   level: number;
-  category: 'Data' | 'Programming' | 'Tool' | 'Soft';
+  category: 'Data' | 'Programming' | 'Tool' | 'Soft' | 'Cloud';
 };
 
 export type Project = {
@@ -43,7 +43,7 @@ export const personalInfo = {
   location: "Seattle, WA",
   bio1: "Experienced data professional with 3+ years specializing in transforming complex datasets into actionable business insights. Strong background in statistical analysis, machine learning, and data visualization with a passion for solving challenging business problems.",
   bio2: "Master’s in Business Analytics from UMass Amherst, focused on solving business problems with measurable impact. I turn data into strategic action through automation, predictive modeling, and dashboards.",
-  bio3: "My work is rooted in outcomes, not outputs. My work is driven by impact, not just insight. When I’m not optimizing models, I’m exploring food spots—curiosity fuels both my data journey and my search for the next hidden gem.",
+  bio3: "My work is rooted in outcomes, not outputs. My work is driven by impact, not just insight. When I’m not optimizing models, I’m exploring food spots, curiosity fuels both my data journey and my search for the next hidden gem.",
   resumeUrl: "#",
   social: {
     linkedin: "https://www.linkedin.com/in/pavitra-saxena/",
@@ -80,11 +80,12 @@ export const skills: Skill[] = [
   { name: "Tableau", level: 85, category: "Tool" },
   { name: "Power BI", level: 90, category: "Tool" },
   { name: "Excel", level: 95, category: "Tool" },
-
-  // Big Data & Cloud
   { name: "Spark", level: 75, category: "Tool" },
-  { name: "Hadoop", level: 70, category: "Tool" },
-  { name: "AWS", level: 75, category: "Tool" },
+  // Big Data & Cloud
+  { name: "AWS", level: 75, category: "Cloud" },
+  { name: "Azure", level: 75, category: "Cloud" },
+  { name: "Snowflakes", level: 70, category: "Cloud" },
+
 
   // Project & Communication
   { name: "Project Management", level: 80, category: "Soft" },
@@ -152,7 +153,7 @@ export const projects: Project[] = [
     id: "Prime-Air",
     title: "Amazon Prime Air",
     description: "Analyzed Amazon Prime Air’s drone delivery feasibility in Massachusetts using demographic, geographic, and regulatory data, forecasting a 23% regional coverage within a 12.5-mile drone radius.",
-    imageUrl: "/images/drone.png",
+    imageUrl: "/portfolio/images/drone.png",
     tags: ["Python", "Statistical modeling", "MS Excel", "Geospatial Analytics"],
     demoUrl: "#",
     repoUrl: "https://github.com/indPavitra/Amazon-Prime-Air",
@@ -161,7 +162,7 @@ export const projects: Project[] = [
     id: "Sales-dashboard",
     title: "Interactive Sales Dashboard",
     description: "Created a KPI-driven Power BI dashboard analyzing 18K+ sales records with a star schema and DAX measures, uncovering high-value customer segments and improving visibility into MRR, ARPC, and sales trends for better executive decision-making.",
-    imageUrl: "/images/Dashboard.png",
+    imageUrl: "/portfolio/images/Dashboard.png",
     tags: ["Power BI", "DAX", "Sales Analysis","Data Modeling"],
     demoUrl: "#",
     repoUrl: "https://github.com/indPavitra/AdventureWorks",
@@ -179,7 +180,7 @@ export const projects: Project[] = [
     id: "Bot",
     title: "AI Interview Bot",
     description: "Developed an automated interview platform to streamline technical and HR evaluations, enabling mass recruitment through a chatbot interface, intelligent candidate response matching, and performance dashboards for stakeholder analysis.",
-    imageUrl: "/images/Bot.png",
+    imageUrl: "/portfolio/images/Bot.png",
     tags: ["Python", "MongoDB", "Flask", "Semantic Matching", "Google Charts"],
     demoUrl: "#",
     repoUrl: "https://github.com/indPavitra/AI_Interview_Bot",

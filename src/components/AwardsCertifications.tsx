@@ -20,7 +20,7 @@ const awards: AwardItem[] = [
     date: "September 2023",
     type: "award",
     description: "Awarded for Outstanding Contribution.",
-    imageUrl: "/images/TCS Accomplishment.jpeg"
+    imageUrl: "/portfolio/images/TCS Accomplishment.jpeg"
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const awards: AwardItem[] = [
     issuer: "Leetcode",
     date: "March 2025",
     type: "certificate",
-    imageUrl: "/images/SQL50.jpg"
+    imageUrl: "/portfolio/images/SQL50.jpg"
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const awards: AwardItem[] = [
     issuer: "Microsoft",
     date: "January 2024",
     type: "certificate",
-    imageUrl: "/images/Azure.png"
+    imageUrl: "/portfolio/images/Azure.png"
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const awards: AwardItem[] = [
     issuer: "IJSREM Journal",
     date: "April 2020",
     type: "certificate",
-    imageUrl: "/images/e- Certificate IJSREM Pavitra Saxena.png"
+    imageUrl: "/portfolio/images/e- Certificate IJSREM Pavitra Saxena.png"
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const awards: AwardItem[] = [
     issuer: "Udemy",
     date: "October 2024",
     type: "certificate",
-    imageUrl: "/images/MySQL Bootcamp.jpg"
+    imageUrl: "/portfolio/images/MySQL Bootcamp.jpg"
   },
    {
     id: 6,
@@ -60,7 +60,7 @@ const awards: AwardItem[] = [
     issuer: "Udemy",
     date: "January 2025",
     type: "certificate",
-    imageUrl: "/images/POWER BI.jpg"
+    imageUrl: "/portfolio/images/POWER BI.jpg"
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ const awards: AwardItem[] = [
     issuer: "Udemy",
     date: "October 2024",
     type: "certificate",
-    imageUrl: "/images/Project Management Fundamentals.jpg"
+    imageUrl: "/portfolio/images/Project Management Fundamentals.jpg"
   },
   {
     id: 8,
@@ -76,7 +76,47 @@ const awards: AwardItem[] = [
     issuer: "Microsoft",
     date: "April 2025",
     type: "certificate",
-    imageUrl: "/images/Excel.png"
+    imageUrl: "/portfolio/images/Excel.png"
+  },
+  {
+    id: 9,
+    title: "Getting Started with Tableau",
+    issuer: "Tableau",
+    date: "May 2025",
+    type: "certificate",
+    imageUrl: "/portfolio/images/Started_tableau.png"
+  },
+  {
+    id: 10,
+    title: "Views and Dashboards",
+    issuer: "Tableau",
+    date: "May 2025",
+    type: "certificate",
+    imageUrl: "/portfolio/images/Views_Dashboard.png"
+  },
+  {
+    id: 11,
+    title: "Explore and Analyze",
+    issuer: "Tableau",
+    date: "May 2025",
+    type: "certificate",
+    imageUrl: "/portfolio/images/Explore_Analyze.png"
+  },
+  {
+    id: 12,
+    title: "Connect and Transform Data",
+    issuer: "Tableau",
+    date: "May 2025",
+    type: "certificate",
+    imageUrl: "/portfolio/images/Connect_Transform.png"
+  },
+  {
+    id: 13,
+    title: "Publish and Manage Data",
+    issuer: "Tableau",
+    date: "May 2025",
+    type: "certificate",
+    imageUrl: "/portfolio/images/Publish_manage.png"
   },
 ];
 

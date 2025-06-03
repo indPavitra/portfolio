@@ -69,18 +69,31 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="lg:w-1/2 flex justify-center lg:justify-end animate-fade-in animate-delay-200">
+          {/* <div className="lg:w-1/2 flex justify-center lg:justify-end animate-fade-in animate-delay-200">
             <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 relative">
               <div className="absolute inset-0 bg-data-blue rounded-full opacity-10 animate-pulse"></div>
               <div className="absolute inset-4 bg-gradient-to-tr from-data-blue to-data-blue-light rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img 
-                  src="\images\Initial_PS.jpeg" 
+                  src="/portfolio/images/Initial_PS.jpeg" 
                   alt={personalInfo.name}
                   className=" w-90 h-90 rounded-full object-cover" 
                 />
               </div>
             </div>
-          </div>
+          </div> */}
+          <div className="lg:w-1/2 flex justify-center lg:justify-end animate-fade-in animate-delay-200">
+  <div className="w-80 h-80 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] relative">
+    <div className="absolute inset-0 bg-data-blue rounded-full opacity-10 animate-pulse"></div>
+    <div className="absolute inset-4 bg-gradient-to-tr from-data-blue to-data-blue-light rounded-full overflow-hidden border-4 border-white shadow-xl">
+      <img 
+        src="/portfolio/images/Main.jpg" 
+        alt={personalInfo.name}
+        className="w-full h-full rounded-full object-cover" 
+      />
+    </div>
+  </div>
+</div>
+
         </div>
         
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">

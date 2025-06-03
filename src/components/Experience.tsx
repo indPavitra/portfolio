@@ -22,7 +22,7 @@ const experienceData: ExperienceItem[] = [
     title: "Data Analyst",
     company: "Tata Consultancy Services",
     location: "Pune, India",
-    period: "2020 - 2023",
+    period: " Dec 2021 - Dec 2023",
     description: [
       "Developed 15+ Tableau and Excel dashboards to support finance and operations, reducing manual reporting time by 4+ hours weekly and enabling faster decision-making.",
       "Automated ETL workflows using Python and VBA, saving 16+ hours per week and accelerating data refresh cycles for critical reports.",
@@ -30,6 +30,19 @@ const experienceData: ExperienceItem[] = [
       "Optimized SQL queries with CTEs and window functions, leading to a 40% faster delivery of reporting insights for high-volume datasets.",
       "Recognized with “Embark Leadership Certification” and “Productivity & Efficiency Improvement” award for driving business value through analytics innovation."
     ]
+  },
+  {
+    id: 2,
+    title: "Junior Data Analyst",
+    company: "Tata Consultancy Services",
+    location: "Pune, India",
+    period: "Oct 2020 - Nov 2021",
+    description: [
+      "Improved claims accuracy by maintaining 5,000+ patient records in Salesforce and EHR systems (Epic) with correct CPT/ICD-10 coding, improving data reliability for claims and provider reporting.",
+      "Boosted clinical workflow efficiency by 30% by creating Excel-based dashboards and reports to track KPIs, enabling care teams to make data-driven decisions.",
+      "Reduced care delays by 20% through root cause analysis of enrollment and refill issues, while ensuring HIPAA compliance with 90 %+ audit scores."
+    ]
+  
   }
 ];
 
@@ -63,7 +76,7 @@ const Experience = () => {
                 </div>
                 
                 <Collapsible 
-                  open={openItems.includes(item.id)} 
+                  open={true} 
                   className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100 p-5"
                 >
                   <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2">

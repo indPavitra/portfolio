@@ -57,7 +57,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button asChild className="ml-4 bg-data-blue hover:bg-data-blue-dark">
-              <a href="/images/Pavitra Saxena Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/portfolio/images/Pavitra Saxena Resume.pdf" target="_blank" rel="noopener noreferrer">
                 Resume
               </a>
             </Button>
