@@ -16,7 +16,7 @@ type ExperienceItem = {
   description: string[];
 };
 
-const experienceData: ExperienceItem[] = [
+/*const experienceData: ExperienceItem[] = [
   {
     id: 1,
     title: "Data Analyst",
@@ -44,7 +44,31 @@ const experienceData: ExperienceItem[] = [
     ]
   
   }
+];*/
+
+
+
+const experienceData: ExperienceItem[] = [
+  {
+    id: 1,
+    title: "Data Engineer",
+    company: "Tata Consultancy Services",
+    location: "Pune, India",
+    period: " Oct 2020 - Dec 2023",
+    description: [
+    "Led a team of 5 in building data-driven reporting solutions by aligning data pipelines with stakeholder needs, improving reporting accuracy by 25%.",
+    "Built scalable ETL workflows using Python, SQL (CTEs, window functions), and AWS Lambda to reduce data refresh time by 40% and power near real-time dashboards.",
+    "Engineered PySpark-based data ingestion pipelines integrated with AWS (Lambda, S3), enabling near real-time updates for cost analysis and fraud detection use cases.",
+    "Designed and optimized relational data models and databases to support daily branch-level reporting, reducing data retrieval latency by 30% and enhancing reporting reliability.",
+    "Introduced data validation checks and Lean practices in PySpark workflows, improving data reliability and reducing pipeline failures and inefficiencies by 15%.",
+    "Earned “Embark Leadership Certification”, “Productivity and Efficiency Improvement” award, and Microsoft Certified: Azure Data Scientist Associate for driving automation and measurable business impact across financial operations."  
+    ]
+  },
 ];
+
+
+
+
 
 const Experience = () => {
   const [openItems, setOpenItems] = useState<number[]>([1]);
@@ -63,7 +87,7 @@ const Experience = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Professional Experience</h2>
           <p className="section-subtitle">
-            My journey through the data analytics landscape
+            My journey through the data engineer landscape
           </p>
         </div>
         

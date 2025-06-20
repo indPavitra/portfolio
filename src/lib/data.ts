@@ -38,7 +38,7 @@ export type Certification = {
 
 export const personalInfo = {
   name: "Pavitra Saxena",
-  title: "Data Analyst",
+  title: "Data Engineer",
   email: "ind.pavitra@gmail.com",
   location: "Seattle, WA",
   bio1: "Experienced data professional with 3+ years specializing in transforming complex datasets into actionable business insights. Strong background in statistical analysis, machine learning, and data visualization with a passion for solving challenging business problems.",
