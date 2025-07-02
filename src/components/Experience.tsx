@@ -56,12 +56,12 @@ const experienceData: ExperienceItem[] = [
     location: "Pune, India",
     period: " Oct 2020 - Dec 2023",
     description: [
-    "Led a team of 5 in building data-driven reporting solutions by aligning data pipelines with stakeholder needs, improving reporting accuracy by 25%.",
-    "Built scalable ETL workflows using Python, SQL (CTEs, window functions), and AWS Lambda to reduce data refresh time by 40% and power near real-time dashboards.",
-    "Engineered PySpark-based data ingestion pipelines integrated with AWS (Lambda, S3), enabling near real-time updates for cost analysis and fraud detection use cases.",
-    "Designed and optimized relational data models and databases to support daily branch-level reporting, reducing data retrieval latency by 30% and enhancing reporting reliability.",
-    "Introduced data validation checks and Lean practices in PySpark workflows, improving data reliability and reducing pipeline failures and inefficiencies by 15%.",
-    "Earned “Embark Leadership Certification”, “Productivity and Efficiency Improvement” award, and Microsoft Certified: Azure Data Scientist Associate for driving automation and measurable business impact across financial operations."  
+    "Led a team of 5 to build self-serve Tableau dashboards by aligning reusable datasets with stakeholder KPIs, scaling analytics and improving reporting accuracy by 25%.",
+    "Built scalable ELT pipelines using Apache Airflow, SQL, and Python to transform raw data into canonical datasets and automate daily refreshes.",
+    "Engineered PySpark-based ingestion pipelines integrated with AWS S3 and EMR, enabling real-time data updates for cost analysis and fraud detection use cases, while embedding data validation checks and Lean practices to reduce pipeline failures by 15%.",
+    "Designed and deployed automated data validation checks using Athena and shell scripts, improving data reliability and saving 10+ hours/week.",
+    "Achieved 98% accuracy in procurement data management during AWS migration by automating Oracle DB validations and reconciling processed outputs in DBeaver and Starburst, ensuring seamless ETL integration and real-time data integrity.",
+    "Earned “Embark Leadership Certification”, “Productivity and Efficiency Improvement” award, and Microsoft Certified: Azure Data Scientist Associate for driving automation and measurable business impact across financial operations."
     ]
   },
 ];
